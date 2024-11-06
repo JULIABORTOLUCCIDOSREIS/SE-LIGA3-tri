@@ -1,0 +1,84 @@
+/* Reset de estilo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ed8989;
+    color: #000000;
+}
+
+/* Container para centralizar o conteúdo */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #060505;
+    color: #ed8989;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Estilo da seção de conteúdo */
+.content {
+    background-color: #ffffff;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #000000;
+    color: #ed8989;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
